@@ -17,7 +17,7 @@ public class MainController {
 
 	@GetMapping("/")
 	public void test() {
-		log.info("hi : "+service);
+		log.info("hi : Welcome Git Hub"+service);
 		service.addNewCourse();
 	}
 	
